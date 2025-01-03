@@ -11,7 +11,7 @@ on:
   pull_request:
     branches: [ "master", "ci-building" ]
 
-env:
+#env:
   # Path to the solution file relative to the root of the project.
   #SOLUTION_FILE_PATH: Projects/Win64/EAWebKit/16.4.2.0.0
 
