@@ -30,7 +30,7 @@ jobs:
     strategy:
       matrix:
         BUILD_CONFIGURATION: [Release, Debug]
-        SOLUTION_FILE_PATH: [Projects/Win64/EAWebKit/16.4.2.0.0, Projects/Win/EAWebKit/16.4.2.0.0]
+        SOLUTION_FILE_PATH: [Projects/Win64/EAWebKit/16.4.2.0.0]
 
     steps:
     - uses: actions/checkout@v4
